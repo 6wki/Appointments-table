@@ -28,11 +28,11 @@ a {
 
 .head-title {
     padding: 90px 0 20px 0;
-    min-width: 800px;
+    min-width: 1000px;
 }
 
 .theTable {
-    min-width: 800px;
+    min-width: 1000px;
     border-spacing:0 15px;
 }
 
