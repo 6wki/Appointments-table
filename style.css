@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.consult, .revisit {
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.revisit {
+    background-color: #00a6fb;
+}
+
+.consult {
+    background-color: #38b000;
+}
+
+a {
+    color: #00a6fb;
+}
+
+.head-title {
+    padding: 90px 0 20px 0;
+    min-width: 800px;
+}
+
+.theTable {
+    min-width: 800px;
+    border-spacing:0 15px;
+}
+
+.theTable thead tr {
+    text-align: left;
+}
+
+.theTable th,
+.theTable td {
+    padding: 10px 20px;
+}
+
+.theTable tbody {
+    background-color: white;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+.table-container {
+    min-width: 1000px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.pfp {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.mrid {
+    display: flex;
+    align-items: center;
+
+}
+
+.informations h1 {
+    font-size: 17px;
+}
+
+.informations h2 {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.date h1 {
+    font-size: 16px;
+}
+
+.date p {
+    font-size: 12px;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.dots {
+    filter: invert(45%) sepia(79%) saturate(2463%) hue-rotate(174deg) brightness(104%) contrast(102%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
